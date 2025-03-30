@@ -1098,6 +1098,10 @@ footer #contact-info .container a {
   main #top-pictures > div {
     height: 170px;
   }
+
+  #sofa-products .sofa-items div.sofa-picture {
+    height: 220px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1113,6 +1117,9 @@ footer #contact-info .container a {
   #header input::placeholder {
     font-size: 13px;
   }
+  main .container {
+  padding: 0px 10px;
+}
   footer #about-off-decor .container {
     grid-template-columns: auto auto;
     grid-gap: 20px;
